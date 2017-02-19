@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="false" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="Big5-HKSCS">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/busminitool/BusDetail.java" charset="x-MS950-HKSCS" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/busminitool/DBHelper.java" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/busminitool/P2PSearch.java" charset="Big5-HKSCS" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/busminitool/P2PSearchResult.java" charset="Big5-HKSCS" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/busminitool/Prefix_Data_SQL.java" charset="Big5-HKSCS" />
+    <file url="PROJECT" charset="Big5-HKSCS" />
+  </component>
+</project>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LL0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/setting_shape">
+     <RelativeLayout
+        android:id="@+id/RL0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp" >
+
+         <EditText android:id="@+id/inputSearch"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="請輸入巴士路線..."
+    	android:inputType="textVisiblePassword"
+        android:textColor="#0C0B0B"/>
+    </RelativeLayout>
+    <!-- Editext for Search -->
+
+      <RelativeLayout
+        android:id="@+id/RL1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="20dp">
+
+          <ListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+        
+    </RelativeLayout>
+	<!-- List View -->
+</LinearLayout>

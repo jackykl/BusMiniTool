@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/LL0"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_height="match_parent" 
+ android:layout_width="fill_parent" 
+ android:orientation="vertical">
+
+    <LinearLayout
+         android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RL0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25" >
+
+            <LinearLayout
+                android:id="@+id/LL2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:id="@+id/RL1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null">
+
+                    <ImageView
+                        android:id="@+id/imgBusIcon"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtStationNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@+id/imgBusIcon"
+                        android:text="StationNo"
+                        android:textColor="#0C0B0B"
+                        android:textStyle="normal|bold"/>
+                    
+                    <TextView
+                        android:id="@+id/txtStationName"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@+id/txtStationNo"
+                        android:text="StationName"
+                        android:textColor="#0C0B0B"
+                        android:textStyle="normal|bold"/>
+                     <TextView
+                        android:id="@+id/txtFare"
+                        android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                        android:text="Fare"
+                        android:layout_alignParentRight="true"
+                         android:layout_marginLeft="30dp"
+                         android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/txtStationName"
+                        android:textColor="#0C0B0B"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/txtHalfFare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HalfFare"
+                        android:layout_below="@+id/txtFare"
+                        android:layout_alignLeft="@+id/txtFare"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#FF9994"
+                        android:textStyle="normal|bold"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Users/Jacky%20Li/AndroidStudioProjects/BusMiniTool/app/src/main/res/layout/bus_detail_list.xml -->

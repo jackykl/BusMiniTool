@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bus mini  tool</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Search</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section4">Section 4</string>
+    <string name="search_hint">What Are u looking for?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reg">Register data</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search_label">Search</string>
+    <string name="title_activity_bus_detail">BusDetail</string>
+    <string name="title_activity_p2_psearch">P2PSearch</string>
+    <string name="title_activity_InterChangeBus">InterChangeBus</string>
+    <string name="action_langen">English</string>
+    <string name="action_langtc">繁體中文</string>
+    <string-array name="list_of_District_TC">
+        <item>--- 全部分區 ---</item>
+        <item>九龍城</item>
+        <item>中西區</item>
+        <item>油尖旺</item>
+        <item>深水步</item>
+        <item>港島南區</item>
+        <item>黃大仙</item>
+    </string-array>
+    <string-array name="list_of_KLNCity_Area_TC">
+        <item>--- 全部區域 ---</item>
+        <item>啟德</item>
+        <item>九龍城/太子道東</item>
+        <item>九龍塘</item>
+        <item>土瓜灣/馬頭圍</item>
+        <item>何文田/愛民</item>
+        <item>紅磡/黃埔</item>
+    </string-array>
+    <string-array name="list_of_CENTRAL_Area_TC">
+        <item>--- 全部區域 ---</item>
+        <item>山頂</item>
+        <item>中上環/金鐘</item>
+        <item>西營盤</item>
+        <item>堅尼地城/西環</item>
+        <item>港大/半山</item>
+    </string-array>
+    <string-array name="list_of_YTM_Area_TC">
+        <item>--- 全部區域 ---</item>
+        <item>大角咀</item>
+        <item>太子道西</item>
+        <item>尖沙咀/天星碼頭</item>
+        <item>尖沙咀東/紅磡鐵路站</item>
+        <item>西九龍/九龍鐵路站</item>
+        <item>佐敦/油麻地</item>
+        <item>旺角</item>
+        <item>旺角西/柏景灣/奧海城</item>
+    </string-array>
+    <string-array name="list_of_SSP_Area_TC">
+        <item>--- 全部區域 ---</item>
+        <item>石硤尾</item>
+        <item>長沙灣/荔枝角/昂船洲</item>
+        <item>南昌/海麗</item>
+        <item>美孚</item>
+        <item>深水步</item>
+        <item>澤安/城大/大坑東</item>
+    </string-array>
+    <string-array name="list_of_HKS_Area_TC">
+        <item>--- 全部區域 ---</item>
+        <item>赤柱/石澳</item>
+        <item>香港仔/華富/華貴/數碼港</item>
+        <item>海怡/鴨利洲</item>
+        <item>深/淺水灣</item>
+        <item>黃竹坑</item>
+        <item>薄扶林/置富</item>
+    </string-array>
+    <string-array name="list_of_WTS_Area_TC">
+        <item>--- 全部區域 ---</item>
+        <item>牛池灣/彩虹</item>
+        <item>竹園/翠竹</item>
+        <item>彩雲/彩輝</item>
+        <item>黃大仙</item>
+        <item>慈雲山</item>
+        <item>新蒲崗/東頭</item>
+        <item>鳳德/鳳凰</item>
+        <item>樂富</item>
+        <item>鑽石山</item>
+        <item>琼富/鑽石山墳場</item>
+    </string-array>
+
+    <string-array name="list_of_District_EN">
+        <item>--- All Districts ---</item>
+        <item>CENTRAL WESTERN</item>
+        <item>KOWLOON CITY</item>
+        <item>SHAM SHUI PO</item>
+        <item>SOUTHERN H.K. ISLAND</item>
+        <item>WONG TAI SIN</item>
+        <item>YAU TSIM MONG</item>
+    </string-array>
+
+
+    <string-array name="list_of_KLNCity_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>HO MAN TIN/OI MAN</item>
+        <item>HUNG HOM/WHAMPOA</item>
+        <item>KAI TAK</item>
+        <item>KOWLOON CITY/PRINCE EDWARD ROAD EAST</item>
+        <item>KOWLOON TONG</item>
+        <item>TO KWA WAN/MA TAU WAI</item>
+    </string-array>
+    <string-array name="list_of_KT_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>HONG LING/HIP WO/YUET WAH</item>
+        <item>KAI YIP/RICHLAND/PING SHEK</item>
+        <item>KOWLOON BAY INDUSTRIAL / BUSINESS AREA</item>
+        <item>KWUN TONG CENTRE / KWUN TONG BUSINESS AREA</item>
+        <item>LAGUNA CITY</item>
+        <item>LAM TIN / KAI TIN /PING TIN/KWONG TIN</item>
+        <item>LOK WAH</item>
+        <item>NGAU TAU KOK/TELFORD GARDENS</item>
+        <item>SAU MAU PING</item>
+        <item>SCENEWAY/LAM TIN RAILWAY STATION</item>
+        <item>SHUN TIN/SHUN LEE</item>
+        <item>TSUI PING</item>
+        <item>YAU TONG/LEI YUE MUN</item>
+    </string-array>
+    <string-array name="list_of_SSP_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>CHAK ON/CITY UNIVERSITY/TAI HANG TUNG</item>
+        <item>CHEUNG SHA WAN/LAI CHI KOK/NGONG SHUEN CHAU</item>
+        <item>MEI FOO</item>
+        <item>NAM CHEONG/HOI LAI</item>
+        <item>SHAM SHUI PO</item>
+        <item>SHEK KIP MEI</item>
+    </string-array>
+    <string-array name="list_of_WTS_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>CHOI WAN/CHOI FAI</item>
+        <item>CHUK YUEN/TSUI CHUK</item>
+        <item>DIAMOND HILL</item>
+        <item>FUNG TAK/FUNG WONG</item>
+        <item>KING FU / DIAMOND HILL CEMETERY</item>
+        <item>LOK FU</item>
+        <item>NGAU CHI WAN/CHOI HUNG</item>
+        <item>SAN PO KONG/TUNG TAU</item>
+        <item>TSZ WAN SHAN</item>
+        <item>WONG TAI SIN</item>
+    </string-array>
+    <string-array name="list_of_YTM_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>JORDAN/YAU MA TEI</item>
+        <item>MONG KOK</item>
+        <item>MONGKOK WEST/PARK AVENUE/OLYMPIAN CITY</item>
+        <item>PRINCE EDWARD ROAD WEST</item>
+        <item>TAI KOK TSUI</item>
+        <item>TSIM SHA TSUI EAST/HUNG HOM RAILWAY STATION</item>
+        <item>TSIM SHA TSUI/STAR FERRY</item>
+        <item>WEST KOWLOON/KOWLOON RAILWAY STATION</item>
+    </string-array>
+    <string-array name="list_of_CENTRAL_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>CENTRAL/ADMIRALTY</item>
+        <item>HKU/MID LEVELS</item>
+        <item>KENNEDY TOWN/WEST POINT</item>
+        <item>PEAK</item>
+        <item>SAI YING PUN</item>
+    </string-array>
+    <string-array name="list_of_HKS_Area_EN">
+        <item>--- All Areas ---</item>
+        <item>ABERDEEN/WAH FU/WAH KWAI/CYBERPORT</item>
+        <item>DEEPP WATER BAY/REPULSE BAY</item>
+        <item>POK FU LAM/CHI FU</item>
+        <item>SOUTH HORIZONS/AP LEI CHAU</item>
+        <item>STANLEY/SHEK O</item>
+        <item>WONG CHUK HANG</item>
+    </string-array>
+    <string name="title_activity_p2_psearch_result">P2PSearchResult</string>
+
+</resources>

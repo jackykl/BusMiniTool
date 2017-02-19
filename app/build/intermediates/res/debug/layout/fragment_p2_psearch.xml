@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LL0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/setting_shape"  >
+
+    <RelativeLayout
+        android:id="@+id/RL0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2" >
+
+        <RelativeLayout
+            android:id="@+id/RL1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:background="@drawable/p2p_shape" >
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="55dp"
+
+                android:background="@null"
+                android:src="@drawable/bus_upstair" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="160dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="70dp"
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginRight="5dp"
+
+                android:layout_below="@+id/spinner1"
+                />
+
+            <TextView
+                android:id="@+id/OrignTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgLogo"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+      
+
+        <RelativeLayout
+            android:id="@+id/RL2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="30dp"
+            android:layout_below="@+id/RL1"
+            android:background="@drawable/p2p_shape2" >
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner3"
+                android:layout_marginLeft="160dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="60dp"
+
+                android:background="@null"
+                android:src="@drawable/bus_downstair" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="70dp" />
+
+            <TextView
+                android:id="@+id/DistTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ImageView01"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+		<RelativeLayout
+		    android:id="@+id/RL3"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/RL2"
+            android:paddingBottom="10dp"
+		    android:background="@drawable/p2p_shape3" >
+
+              <TextView
+                  android:id="@+id/buttonTV"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginLeft="37dp"
+                  android:layout_marginTop="18dp"
+                  android:text="Large Text"
+                  android:textAppearance="?android:attr/textAppearanceMedium" />
+
+              <Button
+                  android:id="@+id/btnSearch"
+                  android:layout_width="350px"
+                  android:layout_height="100px"
+
+                  android:layout_below="@+id/buttonTV"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="5dp"
+
+                  android:background="@drawable/bus_search_btn" />
+
+            </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/Users/Jacky%20Li/AndroidStudioProjects/BusMiniTool/app/src/main/res/layout/fragment_p2_psearch.xml -->

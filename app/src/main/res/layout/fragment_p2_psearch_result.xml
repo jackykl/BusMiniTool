@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LL0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/setting_shape">
+     <RelativeLayout
+        android:id="@+id/RL0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+         >
+
+         <TextView
+             android:id="@+id/searchResultTV"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="18dp"
+             android:text="Large Text"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#0C0B0B"
+             android:textStyle="normal|bold"/>
+        
+    </RelativeLayout>
+    <!-- Editext for Search -->
+
+      <RelativeLayout
+        android:id="@+id/RL1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="20dp">
+
+          <ListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+        
+    </RelativeLayout>
+	<!-- List View -->
+</LinearLayout>
